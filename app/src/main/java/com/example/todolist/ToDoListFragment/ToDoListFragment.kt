@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.lifecycle.ViewModelProvider
 import com.example.Todo.toDoListFragment.KEY_ID
+import com.example.Todo.toDoListFragment.ToDoListListFragment
 import com.example.todolist.Database.ToDoList
 import com.example.todolist.DatePickerDialogFragment
 import com.example.todolist.R
@@ -29,7 +30,7 @@ class ToDoListFragment : Fragment(), DatePickerDialogFragment.DatePickerCallback
 
 
     private val toDoListViewModel by lazy {
-        ViewModelProvider(this).get(ToDoViewModel::class.java)
+        ViewModelProvider(this).get(ToDoListViewModel::class.java)
     }
 
     override fun onCreateView(
@@ -40,7 +41,7 @@ class ToDoListFragment : Fragment(), DatePickerDialogFragment.DatePickerCallback
         saveButton = view.findViewById(R.id.toDoList_save_button)
         dateButton = view.findViewById(R.id.toDolist_date)
         titleEditText = view.findViewById(R.id.toDoList_title_hint_edit_text)
-        isCompletedCheckBox=view.findViewById(R.id.toDo_completed_label)
+        isCompletedCheckBox=view.findViewById(R.id.completed_checkbox)
         detailsEditText = view.findViewById(R.id.toDo_details)
         creationDateTextView=view.findViewById(R.id.toDo_creation_date)
 
@@ -55,7 +56,7 @@ class ToDoListFragment : Fragment(), DatePickerDialogFragment.DatePickerCallback
 
         saveButton.setOnClickListener {
             toDoListViewModel.saveUpdate(toDoList)
-            val fragment = ToDoListFragment()
+            val fragment = ToDoListListFragment()
             activity?.let {
                 it.supportFragmentManager
                     .beginTransaction()
@@ -136,8 +137,12 @@ class ToDoListFragment : Fragment(), DatePickerDialogFragment.DatePickerCallback
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         toDoList = ToDoList()
-        val toDoListId = arguments?.getSerializable(KEY_ID) as UUID
-        toDoListViewModel.loadToDoList(toDoListId)
+        arguments?.let {
+           val toDoListId =it.getSerializable(KEY_ID) as UUID
+           toDoListViewModel.loadToDoList(toDoListId)
+        }
+
+
 
     }
 

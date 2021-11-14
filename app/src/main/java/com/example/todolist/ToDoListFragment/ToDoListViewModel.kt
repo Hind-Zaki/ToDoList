@@ -9,7 +9,7 @@ import com.example.todolist.Database.ToDoListRepository
 import java.util.*
 
 
-class ToDoViewModel : ViewModel() {
+class ToDoListViewModel : ViewModel() {
     private val toDoListRepository = ToDoListRepository.get()
     private val toDoListIdLiveData = MutableLiveData<UUID>()
 

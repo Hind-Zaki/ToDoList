@@ -122,7 +122,8 @@
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/orange_button_background"
-                android:text="@string/toDoList_date_label_text_view" />
+                android:text="@string/toDoList_date_label_text_view"
+                android:textColor="#05B691" />
 
             <Button
                 android:id="@+id/toDoList_save_button"
@@ -131,17 +132,19 @@
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="32dp"
                 android:background="@drawable/orange_button_background"
-                android:text="@string/toDoList_save_button" />
+                android:text="@string/toDoList_save_button"
+                android:textColor="#05B691" />
 
             <CheckBox
-                android:id="@+id/toDo_completed_label"
+                android:id="@+id/completed_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"
-                android:button="@drawable/orange_button_background"
+                android:layout_marginBottom="32dp"
                 android:text="@string/toDoList_completed_label"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
         </LinearLayout>
     </ScrollView>

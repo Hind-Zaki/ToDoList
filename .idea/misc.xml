@@ -6,16 +6,20 @@
         <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/drawable-v24/add_image.xml" value="0.12432432432432433" />
         <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/drawable-v24/check_image.xml" value="0.12432432432432433" />
         <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/drawable-v24/delete_image.xml" value="0.12432432432432433" />
+        <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/drawable/card_view_label.xml" value="0.12432432432432433" />
         <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/drawable/edit_text_background.xml" value="0.12432432432432433" />
+        <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/drawable/light_green.xml" value="0.12432432432432433" />
         <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/drawable/orange_button_background.xml" value="0.12432432432432433" />
         <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/layout/activity_main.xml" value="0.11385135135135135" />
-        <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/layout/fragment_to_do_list.xml" value="0.22" />
+        <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/layout/fragment_to_do_list.xml" value="0.25" />
         <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/layout/fragment_to_do_list_list.xml" value="0.11385135135135135" />
         <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/layout/intro.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/layout/list_item_blank.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/menu/add_menu.xml" value="0.11385135135135135" />
+        <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/hanar/AndroidStudioProjects/ToDoList2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>

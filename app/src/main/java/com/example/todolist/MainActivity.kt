@@ -2,6 +2,7 @@ package com.example.todolist
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.Todo.toDoListFragment.ToDoListListFragment
 import com.example.todolist.ToDoListFragment.ToDoListFragment
 
 class MainActivity : AppCompatActivity() {
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
             .findFragmentById(R.id.fragment_container)
 
         if (currentFragment == null) {
-            val fragment = ToDoListFragment()
+            val fragment = ToDoListListFragment()
             supportFragmentManager
                 .beginTransaction()
                 .add(R.id.fragment_container, fragment)
