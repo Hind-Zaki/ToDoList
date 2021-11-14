@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="to_do_list">TO DO LIST</string>
+    <string name="item">Item</string>
+    <string name="toDoList_title_hint_edit_text">Enter a title</string>
+    <string name="toDoList_title_label_text_view">Title</string>
+    <string name="toDoList_details_label_text_view">Details</string>
+    <string name="toDoList_details_hint_edit_text">Enter details</string>
+    <string name="toDoList_completed_label">Completed</string>
+    <string name="toDoList_new_task_label_text_view">New Task</string>
+    <string name="toDoList_save_button">Save</string>
+    <string name="toDoList_date_label_text_view">Date</string>
+    <string name="toDoList_title">toDo title</string>
+    <string name="toDoList_date">toDo_date</string>
+
+</resources>
